@@ -1189,22 +1189,23 @@
     // Menu Data with all your client's dishes
     const data = [
       // Veg Thali
-      {"id":1,"cat":"vegthali","name":"व्हेज थाळी","price":"₹70","desc":"इंद्रायणी भात, वरण, 1 भाजी, 3 चपाती, सलाड, लोणचं","tags":["Vegetarian","Thali"],"img":"img/veg_thali.jpeg"},
-      {"id":2,"cat":"vegthali","name":"व्हेज थाळी","price":"₹90","desc":"इंद्रायणी भात, वरण, दोन भाजी, तीन चपात्या, सलाड, लोणचं","tags":["Vegetarian","Thali"],"img":"img/veg_thali.jpeg"},
-      {"id":3,"cat":"vegthali","name":"व्हेज थाळी स्पेशल","price":"₹150","desc":"इंद्रायणी भात, वरण, तीन चपात्या, दोन भाजी, गुलाबजाम, सलाड, पापड, लोणचं","tags":["Vegetarian","Thali"],"img":"img/veg_thali_special.jpeg"},
+      {"id":1,"cat":"vegthali","name":"व्हेज थाळी","price":"₹70","desc":"इंद्रायणी भात, वरण, 1 भाजी, 3 चपाती, सलाड, लोणचं","tags":["Vegetarian","Thali"],"img":"img/veg_thali1.jpg"},
+      {"id":2,"cat":"vegthali","name":"व्हेज थाळी","price":"₹90","desc":"इंद्रायणी भात, वरण, दोन भाजी, तीन चपात्या, सलाड, लोणचं","tags":["Vegetarian","Thali"],"img":"img/veg_thali1.jpg"},
+      {"id":3,"cat":"vegthali","name":"व्हेज थाळी स्पेशल","price":"₹150","desc":"इंद्रायणी भात, वरण, तीन चपात्या, दोन भाजी, गुलाबजाम, सलाड, पापड, लोणचं","tags":["Vegetarian","Thali"],"img":"img/veg_thali_special.jpg"},
       
       // Non-Veg Thali
-      {"id":4,"cat":"nonvegthali","name":"चिकन थाळी","price":"₹150","desc":"चिकन रस्सा तीन पीस, एक वाटी रस्सा, तीन चपात्या, पापड, इंद्रायणी भात","tags":["Non-Vegetarian","Thali"],"img":"img/chicken_thali.jpeg"},
-      {"id":5,"cat":"nonvegthali","name":"चिकन थाळी","price":"₹170","desc":"चिकन रस्सा 3 पीस, एक भाकर, इंद्रायणी भात, पापड, सलाड","tags":["Non-Vegetarian","Thali"],"img":"img/chicken_thali.jpeg"},
-      {"id":6,"cat":"nonvegthali","name":"मटन थाळी","price":"₹250","desc":"मटन रस्सा तीन पीस, इंद्रायणी भात, तीन चपात्या, पापड, सलाड","tags":["Non-Vegetarian","Thali"],"img":"img/mutton_thali.jpeg"},
-      {"id":7,"cat":"nonvegthali","name":"मटन थाळी","price":"₹270","desc":"मटन रस्सा 3 पीस, इंद्रायणी भात, एक भाकर, पापड, सलाड","tags":["Non-Vegetarian","Thali"],"img":"img/mutton_thali.jpeg"},
-      {"id":8,"cat":"nonvegthali","name":"चिकन स्पेशल थाळी","price":"₹300","desc":"चिकन रस्सा तीन पीस, तीन सुके पिस, बॉईल अंडा 1, सुप एक वाटी, इंद्रायणी भात, तीन चपात्या, एक वाटी रस्सा, सलाड, पापड","tags":["Non-Vegetarian","Thali"],"img":"img/chicken_special_thali.jpeg"},
+      {"id":4,"cat":"nonvegthali","name":"चिकन थाळी","price":"₹150","desc":"चिकन रस्सा तीन पीस, एक वाटी रस्सा, तीन चपात्या, पापड, इंद्रायणी भात","tags":["Non-Vegetarian","Thali"],"img":"img/chicken_thali1.jpg"},
+      {"id":5,"cat":"nonvegthali","name":"चिकन थाळी","price":"₹170","desc":"चिकन रस्सा 3 पीस, एक भाकर, इंद्रायणी भात, पापड, सलाड","tags":["Non-Vegetarian","Thali"],"img":"img/chicken_thali1.jpg"},
+      {"id":6,"cat":"nonvegthali","name":"मटन थाळी","price":"₹250","desc":"मटन रस्सा तीन पीस, इंद्रायणी भात, तीन चपात्या, पापड, सलाड","tags":["Non-Vegetarian","Thali"],"img":"img/mutton_thali.jpg"},
+      {"id":7,"cat":"nonvegthali","name":"मटन थाळी","price":"₹270","desc":"मटन रस्सा 3 पीस, इंद्रायणी भात, एक भाकर, पापड, सलाड","tags":["Non-Vegetarian","Thali"],"img":"img/mutton_thali.jpg"},
+      {"id":8,"cat":"nonvegthali","name":"चिकन स्पेशल थाळी","price":"₹300","desc":"चिकन रस्सा तीन पीस, तीन सुके पिस, बॉईल अंडा 1, सुप एक वाटी, इंद्रायणी भात, तीन चपात्या, एक वाटी रस्सा, सलाड, पापड","tags":["Non-Vegetarian","Thali"],"img":"img/chicken_special_thali.jpg"},
       {"id":9,"cat":"nonvegthali","name":"मटन स्पेशल थाळी","price":"₹400","desc":"मटन रस्सा तीन पीस, तीन सुके पीस, एक बॉईज अंड, एक वाटी मटन सूप, एक वाटी रस्सा, इंद्रायणी भात, भाकरी एक किंवा तीन चपात्या, सलाड, पापड","tags":["Non-Vegetarian","Thali"],"img":"img/mutton_special_thali.jpeg"},
-      {"id":10,"cat":"nonvegthali","name":"अंडा थाळी","price":"₹130","desc":"इंद्रायणी भात, दोन अंडे बॉईल, 1 वाटी रस्सा, तीन चपात्या, सलाड, पापड","tags":["Non-Vegetarian","Thali"],"img":"img/egg_thali.jpeg"},
-      {"id":11,"cat":"nonvegthali","name":"पापलेट फिश थाळी","price":"₹450","desc":"3 तीन चपात्या, इंद्रायणी भात, प्रॉन्स रस्सा, सलाड, पापड, लोणचं, एक पापलेट फिश फ्राय","tags":["Non-Vegetarian","Thali"],"img":"img/pomfret_fish_thali.jpeg"},
+      {"id":10,"cat":"nonvegthali","name":"अंडा थाळी","price":"₹130","desc":"इंद्रायणी भात, दोन अंडे बॉईल, 1 वाटी रस्सा, तीन चपात्या, सलाड, पापड","tags":["Non-Vegetarian","Thali"],"img":"img/egg_thali1.jpg"},
+      {"id":11,"cat":"nonvegthali","name":"पापलेट फिश थाळी","price":"₹450","desc":"3 तीन चपात्या, इंद्रायणी भात, प्रॉन्स रस्सा, सलाड, पापड, लोणचं, एक पापलेट फिश फ्राय","tags":["Non-Vegetarian","Thali"],"img":"img/pomfret_fish_thali.jpg"},
       {"id":12,"cat":"nonvegthali","name":"बांगडा थाळी","price":"₹300","desc":"इंद्रायणी भात, तीन चपात्या, बांगडा फ्राय फिश एक, सलाड, पापड, लोणचं, आणि एक वाटी रस्सा","tags":["Non-Vegetarian","Thali"],"img":"img/mackerel_fish_thali.jpeg"},
-      {"id":13,"cat":"nonvegthali","name":"सुरमई फिश थाळी","price":"₹400","desc":"इंद्रायणी भात, तीन चपात्या, सुरमई फिश फ्राय एक, सलाड, पापड, लोणचं, प्रॉन्स रस्सा वाटी एक","tags":["Non-Vegetarian","Thali"],"img":"img/surmai_fish_thali.jpeg"},
-      
+      {"id":13,"cat":"nonvegthali","name":"सुरमई फिश थाळी","price":"₹400","desc":"इंद्रायणी भात, तीन चपात्या, सुरमई फिश फ्राय एक, सलाड, पापड, लोणचं, प्रॉन्स रस्सा वाटी एक","tags":["Non-Vegetarian","Thali"],"img":"img/surmai_fish_thali.jpg"},
+      {"id":70,"cat":"nonvegthali","name":"प्रॉन्स फ्राय / Prawns Fry","price":"₹200","desc":"6 pcs crispy prawns fry","tags":["Non-Vegetarian","Starter"],"img":"img/prawns_fry.jpg"},
+
       // Veg Bhaji
       {"id":14,"cat":"vegbhaji","name":"शेव भाजी","price":"₹100","desc":"शेव भाजी घरगुती पद्धतीने तयार केलेली","tags":["Vegetarian"],"img":"img/shev_bhaji.jpeg"},
       {"id":15,"cat":"vegbhaji","name":"पनीर मसाला","price":"₹200","desc":"पनीर मसाला स्वादिष्ट आणि मसालेदार","tags":["Vegetarian"],"img":"img/paneer_masala.jpeg"},
